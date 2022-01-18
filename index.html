@@ -1,16 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-  <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Template</title>
 
-  <h1>Sass bem starter</h1>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Site Title -->
+    <h1 class="visually-hidden">Site title</h1>
 
+    <!-- Header -->
+    <header class="header">
+      <div class="container header__container">
+        <a class="header__logo" href="index.html">
+          <img
+            class="header__logo-img"
+            src="./img/logo.png"
+            alt="Site logo"
+            width="186.5"
+            height="30"
+          />
+        </a>
 
-  <script src="js/main.js"></script>
-</body>
+        <ul class="header__right">
+          <li class="header__right-item">
+            <a class="header__phone" href="tel:+998901234567">
+              +998 90 123 45 67
+            </a>
+          </li>
+          <li class="header__language header__right-item">
+            <div class="header__language-icon">uz</div>
+
+            <ul class="header__language-list">
+              <li class="header__language-item">
+                <button class="header__language-btn">ru</button>
+              </li>
+              <li class="header__language-item">
+                <button class="header__language-btn">en</button>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="header__contact-btn" href="#">contact</a>
+          </li>
+        </ul>
+        <button class="header__menu">Menu</button>
+      </div>
+    </header>
+
+    <!-- Main sections -->
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__content">
+            <h2 class="hero__title">custom Software Development Services</h2>
+            <p class="hero__text">
+              We build robust web and mobile solutions to help organizations
+              elevate efficiency, solve tech
+            </p>
+            <a class="hero__link" href="#">
+              See How
+              <span class="hero__link-icon"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">__logo-img</div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>

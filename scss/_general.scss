@@ -22,10 +22,25 @@ body {
   margin: 0;
   font-family: 'Montserrat', 'Arial', sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 30px;
+  color: $main-color;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.main {
+  height: 100%;
 }
