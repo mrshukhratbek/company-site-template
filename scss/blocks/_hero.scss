@@ -1,4 +1,6 @@
 .hero {
+  margin-bottom: 60px;
+
   &__container {
     position: relative;
     z-index: 1;
@@ -88,6 +90,8 @@
 
 @media only screen and (max-width: 576px) {
   .hero {
+    margin-bottom: 35px;
+
     &__container {
       padding-top: 326px;
       padding-left: 20px;
