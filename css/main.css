@@ -695,6 +695,10 @@ ul {
   }
 }
 
+.portfolios {
+  margin-bottom: 50px;
+}
+
 .portfolios__title {
   margin-bottom: 93px;
   text-transform: uppercase;
@@ -903,6 +907,9 @@ ul {
 }
 
 @media only screen and (max-width: 576px) {
+  .portfolios {
+    margin-bottom: 0;
+  }
   .portfolio {
     margin-bottom: 70px;
     -webkit-box-align: start;

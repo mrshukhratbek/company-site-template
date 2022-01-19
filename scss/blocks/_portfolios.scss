@@ -1,4 +1,5 @@
 .portfolios {
+  margin-bottom: 50px;
   &__title {
     margin-bottom: 93px;
     text-transform: uppercase;
@@ -199,6 +200,10 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .portfolios {
+    margin-bottom: 0;
+  }
+
   .portfolio {
     margin-bottom: 70px;
     align-items: flex-start;
