@@ -1,437 +1,611 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Template</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Site Template</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/main.css" />
-</head>
+  <body>
+    <!-- Site Title -->
+    <h1 class="visually-hidden">Site title</h1>
 
-<body>
-  <!-- Site Title -->
-  <h1 class="visually-hidden">Site title</h1>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header__container">
+        <a class="header__logo" href="index.html">
+          <img
+            class="header__logo-img"
+            src="./img/logo.png"
+            alt="Site logo"
+            width="186"
+            height="30"
+          />
+        </a>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="container header__container">
-      <a class="header__logo" href="index.html">
-        <img class="header__logo-img" src="./img/logo.png" alt="Site logo" width="186" height="30" />
-      </a>
+        <ul class="header__right">
+          <li class="header__right-item">
+            <a class="header__phone" href="tel:+998901234567">
+              +998 90 123 45 67
+            </a>
+          </li>
+          <li class="header__language header__right-item">
+            <div class="header__language-icon">uz</div>
 
-      <ul class="header__right">
-        <li class="header__right-item">
-          <a class="header__phone" href="tel:+998901234567">
-            +998 90 123 45 67
-          </a>
-        </li>
-        <li class="header__language header__right-item">
-          <div class="header__language-icon">uz</div>
+            <ul class="header__language-list">
+              <li class="header__language-item">
+                <button class="header__language-btn">ru</button>
+              </li>
+              <li class="header__language-item">
+                <button class="header__language-btn">en</button>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="header__contact-btn" href="#">contact</a>
+          </li>
+        </ul>
+        <button class="header__menu">Menu</button>
+      </div>
+    </header>
 
-          <ul class="header__language-list">
-            <li class="header__language-item">
-              <button class="header__language-btn">ru</button>
+    <!-- Main sections -->
+    <main class="main">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__content">
+            <h2 class="hero__title">custom Software Development Services</h2>
+            <p class="hero__text">
+              We build robust web and mobile solutions to help organizations
+              elevate efficiency, solve tech
+            </p>
+            <a
+              class="hero__link"
+              href="https://www.youtube.com/watch?v=4mEL5-CP3LI"
+              target="_blank"
+            >
+              See How
+              <span class="hero__link-icon"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Numbers -->
+      <section class="numbers">
+        <div class="container">
+          <h2 class="visually-hidden">Numbers</h2>
+          <ul class="numbers__list">
+            <li class="numbers__list-item">
+              <p class="numbers__count">40+</p>
+              <h3 class="numbers__title">projects done</h3>
             </li>
-            <li class="header__language-item">
-              <button class="header__language-btn">en</button>
+            <li class="numbers__list-item">
+              <p class="numbers__count">10+</p>
+              <h3 class="numbers__title">experts in the team</h3>
+            </li>
+            <li class="numbers__list-item">
+              <p class="numbers__count">30+</p>
+              <h3 class="numbers__title">businesses promoted</h3>
+            </li>
+            <li class="numbers__list-item">
+              <p class="numbers__count">1+</p>
+              <h3 class="numbers__title">years of experience</h3>
             </li>
           </ul>
-        </li>
-        <li>
-          <a class="header__contact-btn" href="#">contact</a>
-        </li>
-      </ul>
-      <button class="header__menu">Menu</button>
-    </div>
-  </header>
-
-  <!-- Main sections -->
-  <main class="main">
-    <!-- Hero -->
-    <section class="hero">
-      <div class="container hero__container">
-        <div class="hero__content">
-          <h2 class="hero__title">custom Software Development Services</h2>
-          <p class="hero__text">
-            We build robust web and mobile solutions to help organizations
-            elevate efficiency, solve tech
-          </p>
-          <a class="hero__link" href="https://www.youtube.com/watch?v=4mEL5-CP3LI" target="_blank">
-            See How
-            <span class="hero__link-icon"></span>
-          </a>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Numbers -->
-    <section class="numbers">
-      <div class="container">
-        <h2 class="visually-hidden">Numbers</h2>
-        <ul class="numbers__list">
-          <li class="numbers__list-item">
-            <p class="numbers__count">40+</p>
-            <h3 class="numbers__title">projects done</h3>
-          </li>
-          <li class="numbers__list-item">
-            <p class="numbers__count">10+</p>
-            <h3 class="numbers__title">experts in the team</h3>
-          </li>
-          <li class="numbers__list-item">
-            <p class="numbers__count">30+</p>
-            <h3 class="numbers__title">businesses promoted</h3>
-          </li>
-          <li class="numbers__list-item">
-            <p class="numbers__count">1+</p>
-            <h3 class="numbers__title">years of experience</h3>
-          </li>
-        </ul>
-      </div>
-    </section>
+      <!-- Portfolio -->
+      <section class="portfolios">
+        <div class="container">
+          <h2 class="portfolios__title">
+            <span>OUR <br /></span>
+            CASE STUDIES
+          </h2>
+          <ul class="portfolios__list">
+            <li class="portfolio">
+              <h3 class="portfolio__title portfolio__title-none">Twinkle</h3>
+              <img
+                class="portfolio__img"
+                src="https://via.placeholder.com/595x450"
+                alt="Portfolio img"
+                width="595"
+                height="450"
+              />
+              <div class="portfolio__content">
+                <h3 class="portfolio__title">Twinkle</h3>
+                <p class="portfolio__text">
+                  Tellus viverra senectus volutpat pulvinar lacinia urna diam
+                  sodales. Amet malesuada blandit auctor bibendum. Enim, in
+                  rutrum pellentesque pharetra lectus id ut. Id sit enim
+                  ullamcorper tristique volutpat ullamcorper mauris massa,
+                  tristique. What we did:
+                </p>
+                <ul class="portfolio__list">
+                  <li class="portfolio__list-item">
+                    <h4 class="portfolio__info-title">
+                      <span>01 <br /></span>
+                      Website
+                    </h4>
+                  </li>
+                  <li class="portfolio__list-item">
+                    <h4 class="portfolio__info-title">
+                      <span>02 <br /></span>
+                      Admin Panel
+                    </h4>
+                  </li>
+                  <li class="portfolio__list-item">
+                    <h4 class="portfolio__info-title">
+                      <span>03 <br /></span>
+                      Telegram bot
+                    </h4>
+                  </li>
+                </ul>
+                <a class="portfolio__link" href="https://t.me/videoaudio_robot">
+                  telegram bot
+                </a>
+              </div>
+            </li>
+            <li class="portfolio">
+              <h3 class="portfolio__title portfolio__title-none">Twinkle</h3>
+              <img
+                class="portfolio__img"
+                src="https://via.placeholder.com/595x450"
+                alt="Portfolio img"
+                width="595"
+                height="450"
+              />
+              <div class="portfolio__content">
+                <h3 class="portfolio__title">Twinkle</h3>
+                <p class="portfolio__text">
+                  Tellus viverra senectus volutpat pulvinar lacinia urna diam
+                  sodales. Amet malesuada blandit auctor bibendum. Enim, in
+                  rutrum pellentesque pharetra lectus id ut. Id sit enim
+                  ullamcorper tristique volutpat ullamcorper mauris massa,
+                  tristique. What we did:
+                </p>
+                <ul class="portfolio__list">
+                  <li class="portfolio__list-item">
+                    <h4 class="portfolio__info-title">
+                      <span>01 <br /></span>
+                      Website
+                    </h4>
+                  </li>
+                  <li class="portfolio__list-item">
+                    <h4 class="portfolio__info-title">
+                      <span>02 <br /></span>
+                      Admin Panel
+                    </h4>
+                  </li>
+                  <li class="portfolio__list-item">
+                    <h4 class="portfolio__info-title">
+                      <span>03 <br /></span>
+                      Telegram bot
+                    </h4>
+                  </li>
+                </ul>
+                <a class="portfolio__link" href="https://t.me/videoaudio_robot">
+                  telegram bot
+                </a>
+              </div>
+            </li>
+            <li class="portfolio">
+              <h3 class="portfolio__title portfolio__title-none">Twinkle</h3>
+              <img
+                class="portfolio__img"
+                src="https://via.placeholder.com/595x450"
+                alt="Portfolio img"
+                width="595"
+                height="450"
+              />
+              <div class="portfolio__content">
+                <h3 class="portfolio__title">Twinkle</h3>
+                <p class="portfolio__text">
+                  Tellus viverra senectus volutpat pulvinar lacinia urna diam
+                  sodales. Amet malesuada blandit auctor bibendum. Enim, in
+                  rutrum pellentesque pharetra lectus id ut. Id sit enim
+                  ullamcorper tristique volutpat ullamcorper mauris massa,
+                  tristique. What we did:
+                </p>
+                <ul class="portfolio__list">
+                  <li class="portfolio__list-item">
+                    <h4 class="portfolio__info-title">
+                      <span>01 <br /></span>
+                      Website
+                    </h4>
+                  </li>
+                  <li class="portfolio__list-item">
+                    <h4 class="portfolio__info-title">
+                      <span>02 <br /></span>
+                      Admin Panel
+                    </h4>
+                  </li>
+                  <li class="portfolio__list-item">
+                    <h4 class="portfolio__info-title">
+                      <span>03 <br /></span>
+                      Telegram bot
+                    </h4>
+                  </li>
+                </ul>
+                <a class="portfolio__link" href="https://t.me/videoaudio_robot">
+                  telegram bot
+                </a>
+              </div>
+            </li>
+            <li class="portfolio">
+              <h3 class="portfolio__title portfolio__title-none">Twinkle</h3>
+              <img
+                class="portfolio__img"
+                src="https://via.placeholder.com/595x450"
+                alt="Portfolio img"
+                width="595"
+                height="450"
+              />
+              <div class="portfolio__content">
+                <h3 class="portfolio__title">Twinkle</h3>
+                <p class="portfolio__text">
+                  Tellus viverra senectus volutpat pulvinar lacinia urna diam
+                  sodales. Amet malesuada blandit auctor bibendum. Enim, in
+                  rutrum pellentesque pharetra lectus id ut. Id sit enim
+                  ullamcorper tristique volutpat ullamcorper mauris massa,
+                  tristique. What we did:
+                </p>
+                <ul class="portfolio__list">
+                  <li class="portfolio__list-item">
+                    <h4 class="portfolio__info-title">
+                      <span>01 <br /></span>
+                      Website
+                    </h4>
+                  </li>
+                  <li class="portfolio__list-item">
+                    <h4 class="portfolio__info-title">
+                      <span>02 <br /></span>
+                      Admin Panel
+                    </h4>
+                  </li>
+                  <li class="portfolio__list-item">
+                    <h4 class="portfolio__info-title">
+                      <span>03 <br /></span>
+                      Telegram bot
+                    </h4>
+                  </li>
+                </ul>
+                <a class="portfolio__link" href="https://t.me/videoaudio_robot">
+                  telegram bot
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-    <!-- Portfolio -->
-    <section class="portfolios">
-      <div class="container">
-        <h2 class="portfolios__title">
-          <span>OUR <br /></span>
-          CASE STUDIES
-        </h2>
-        <ul class="portfolios__list">
-          <li class="portfolio">
-            <h3 class="portfolio__title portfolio__title-none">Twinkle</h3>
-            <img class="portfolio__img" src="https://via.placeholder.com/595x450" alt="Portfolio img" width="595"
-              height="450" />
-            <div class="portfolio__content">
-              <h3 class="portfolio__title">Twinkle</h3>
-              <p class="portfolio__text">
-                Tellus viverra senectus volutpat pulvinar lacinia urna diam
-                sodales. Amet malesuada blandit auctor bibendum. Enim, in
-                rutrum pellentesque pharetra lectus id ut. Id sit enim
-                ullamcorper tristique volutpat ullamcorper mauris massa,
-                tristique. What we did:
-              </p>
-              <ul class="portfolio__list">
-                <li class="portfolio__list-item">
-                  <h4 class="portfolio__info-title">
-                    <span>01 <br /></span>
-                    Website
-                  </h4>
-                </li>
-                <li class="portfolio__list-item">
-                  <h4 class="portfolio__info-title">
-                    <span>02 <br /></span>
-                    Admin Panel
-                  </h4>
-                </li>
-                <li class="portfolio__list-item">
-                  <h4 class="portfolio__info-title">
-                    <span>03 <br /></span>
-                    Telegram bot
-                  </h4>
-                </li>
-              </ul>
-              <a class="portfolio__link" href="https://t.me/videoaudio_robot">
-                telegram bot
-              </a>
-            </div>
-          </li>
-          <li class="portfolio">
-            <h3 class="portfolio__title portfolio__title-none">Twinkle</h3>
-            <img class="portfolio__img" src="https://via.placeholder.com/595x450" alt="Portfolio img" width="595"
-              height="450" />
-            <div class="portfolio__content">
-              <h3 class="portfolio__title">Twinkle</h3>
-              <p class="portfolio__text">
-                Tellus viverra senectus volutpat pulvinar lacinia urna diam
-                sodales. Amet malesuada blandit auctor bibendum. Enim, in
-                rutrum pellentesque pharetra lectus id ut. Id sit enim
-                ullamcorper tristique volutpat ullamcorper mauris massa,
-                tristique. What we did:
-              </p>
-              <ul class="portfolio__list">
-                <li class="portfolio__list-item">
-                  <h4 class="portfolio__info-title">
-                    <span>01 <br /></span>
-                    Website
-                  </h4>
-                </li>
-                <li class="portfolio__list-item">
-                  <h4 class="portfolio__info-title">
-                    <span>02 <br /></span>
-                    Admin Panel
-                  </h4>
-                </li>
-                <li class="portfolio__list-item">
-                  <h4 class="portfolio__info-title">
-                    <span>03 <br /></span>
-                    Telegram bot
-                  </h4>
-                </li>
-              </ul>
-              <a class="portfolio__link" href="https://t.me/videoaudio_robot">
-                telegram bot
-              </a>
-            </div>
-          </li>
-          <li class="portfolio">
-            <h3 class="portfolio__title portfolio__title-none">Twinkle</h3>
-            <img class="portfolio__img" src="https://via.placeholder.com/595x450" alt="Portfolio img" width="595"
-              height="450" />
-            <div class="portfolio__content">
-              <h3 class="portfolio__title">Twinkle</h3>
-              <p class="portfolio__text">
-                Tellus viverra senectus volutpat pulvinar lacinia urna diam
-                sodales. Amet malesuada blandit auctor bibendum. Enim, in
-                rutrum pellentesque pharetra lectus id ut. Id sit enim
-                ullamcorper tristique volutpat ullamcorper mauris massa,
-                tristique. What we did:
-              </p>
-              <ul class="portfolio__list">
-                <li class="portfolio__list-item">
-                  <h4 class="portfolio__info-title">
-                    <span>01 <br /></span>
-                    Website
-                  </h4>
-                </li>
-                <li class="portfolio__list-item">
-                  <h4 class="portfolio__info-title">
-                    <span>02 <br /></span>
-                    Admin Panel
-                  </h4>
-                </li>
-                <li class="portfolio__list-item">
-                  <h4 class="portfolio__info-title">
-                    <span>03 <br /></span>
-                    Telegram bot
-                  </h4>
-                </li>
-              </ul>
-              <a class="portfolio__link" href="https://t.me/videoaudio_robot">
-                telegram bot
-              </a>
-            </div>
-          </li>
-          <li class="portfolio">
-            <h3 class="portfolio__title portfolio__title-none">Twinkle</h3>
-            <img class="portfolio__img" src="https://via.placeholder.com/595x450" alt="Portfolio img" width="595"
-              height="450" />
-            <div class="portfolio__content">
-              <h3 class="portfolio__title">Twinkle</h3>
-              <p class="portfolio__text">
-                Tellus viverra senectus volutpat pulvinar lacinia urna diam
-                sodales. Amet malesuada blandit auctor bibendum. Enim, in
-                rutrum pellentesque pharetra lectus id ut. Id sit enim
-                ullamcorper tristique volutpat ullamcorper mauris massa,
-                tristique. What we did:
-              </p>
-              <ul class="portfolio__list">
-                <li class="portfolio__list-item">
-                  <h4 class="portfolio__info-title">
-                    <span>01 <br /></span>
-                    Website
-                  </h4>
-                </li>
-                <li class="portfolio__list-item">
-                  <h4 class="portfolio__info-title">
-                    <span>02 <br /></span>
-                    Admin Panel
-                  </h4>
-                </li>
-                <li class="portfolio__list-item">
-                  <h4 class="portfolio__info-title">
-                    <span>03 <br /></span>
-                    Telegram bot
-                  </h4>
-                </li>
-              </ul>
-              <a class="portfolio__link" href="https://t.me/videoaudio_robot">
-                telegram bot
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
+      <!-- We do -->
+      <section class="wedo">
+        <div class="container">
+          <h2 class="wedo__title">
+            <span>WHAT <br /></span>
+            WE DO
+          </h2>
+        </div>
 
-    <!-- We do -->
-    <section class="wedo">
-      <div class="container">
-        <h2 class="wedo__title">
-          <span>WHAT <br /></span>
-          WE DO
-        </h2>
-      </div>
-      <ul class="wedo__list">
-        <li class="wedo__item">
-          <div class="wedo__item-inner container">
-            <div class="wedo__item-content">
-              <img class="wedo__item-img" src="img/wedo-img-1.png" srcset="img/wedo-img-1.png 2x" alt="" width="661" height="299">
-              <div class="wedo__item-content-info">
+        <ul class="wedo__list">
+          <li class="wedo__item">
+            <div class="container wedo__item-container">
+              <h3 class="wedo__item-title wedo__item-title-none">
+                Web development
+              </h3>
+              <div class="wedo__item-img-wrapper">
+                <img
+                  class="wedo__item-img"
+                  src="img/wedo-img.png"
+                  alt="wedo img"
+                  width="660"
+                />
+              </div>
+              <div class="wedo__item-content">
                 <h3 class="wedo__item-title">Web development</h3>
-                <p class="wedo__item-desc">Accumsan, facilisis neque faucibus lacus, dui, hendrerit. Dignissim ultrices
-                  morbi mattis id tincidunt quam platea eget integer. Feugiat sit ac est nunc.</p>
-                <ol class="wedo__dev-sphere">
-                  <li class="wedo__dev-sphere-item">
-                    <p class="wedo__dev-sphere-text">Frontend</p>
+                <p class="wedo__item-text">
+                  Accumsan, facilisis neque faucibus lacus, dui, hendrerit.
+                  Dignissim ultrices morbi mattis id tincidunt quam platea eget
+                  integer. Feugiat sit ac est nunc.
+                </p>
+                <ul class="technologies">
+                  <li class="technologies__item">
+                    <h3 class="technologies__title">
+                      <span>01 <br /></span>
+                      Frontend
+                    </h3>
                   </li>
-                  <li class="wedo__dev-sphere-item">
-                    <p class="wedo__dev-sphere-text">Backend</p>
+                  <li class="technologies__item">
+                    <h3 class="technologies__title">
+                      <span>02 <br /></span>
+                      Backend
+                    </h3>
                   </li>
-                  <li class="wedo__dev-sphere-item">
-                    <p class="wedo__dev-sphere-text">QA Testing</p>
+                  <li class="technologies__item">
+                    <h3 class="technologies__title">
+                      <span>03 <br /></span>
+                      QA Testing
+                    </h3>
                   </li>
-                </ol>
-                <div class="wedo__techs-wrapper">
-                  <h4 class="wedo__teachs-heading">Technologies</h4>
-                  <ul class="wedo__techs">
-                    <li class="wedo__techs-item">
-                      <img class="wedo__techs-img" src="img/git.svg" alt="Git" width="45" height="45">
-                      <p class="wedo__techs-txt">Git</p>
-                    </li>
-                    <li class="wedo__techs-item">
-                      <img class="wedo__techs-img" src="img/sass.svg" alt="Sass" width="60" height="44">
-                      <p class="wedo__techs-txt">Sass</p>
-                    </li>
-                    <li class="wedo__techs-item">
-                      <img class="wedo__techs-img" src="img/node-js.svg" alt="NondeJS" width="40" height="45">
-                      <p class="wedo__techs-txt">NondeJS</p>
-                    </li>
-                  </ul>
-                </div>
+                </ul>
+                <h4 class="tools-title">Technologies</h4>
+                <ul class="tools">
+                  <li class="tools__item">
+                    <img
+                      class="tools__img"
+                      src="img/node-js.svg"
+                      alt="Tool"
+                      width="50"
+                      height="50"
+                    />
+                    <h5 class="tools__item-title">NodeJs</h5>
+                  </li>
+                  <li class="tools__item">
+                    <img
+                      class="tools__img"
+                      src="img/git.svg"
+                      alt="Tool"
+                      width="50"
+                      height="50"
+                    />
+                    <h5 class="tools__item-title">Git</h5>
+                  </li>
+                  <li class="tools__item">
+                    <img
+                      class="tools__img"
+                      src="img/sass.svg"
+                      alt="Tool"
+                      width="50"
+                      height="50"
+                    />
+                    <h5 class="tools__item-title">Sass</h5>
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-        </li>
-        <li class="wedo__item">
-          <div class="wedo__item-inner container">
-            <div class="wedo__item-content">
-              <img class="wedo__item-img" src="img/wedo-img-2.png" srcset="img/wedo-img-2.png 2x" alt="" width="715" height="299">
-              <div class="wedo__item-content-info">
-                <h3 class="wedo__item-title">UX/UI designer</h3>
-                <p class="wedo__item-desc">Accumsan, facilisis neque faucibus lacus, dui, hendrerit. Dignissim ultrices morbi mattis id tincidunt quam platea eget integer. Feugiat sit ac est nunc.</p>
-                <ol class="wedo__dev-sphere">
-                  <li class="wedo__dev-sphere-item">
-                    <p class="wedo__dev-sphere-text">UX/UI designer</p>
+          </li>
+          <li class="wedo__item">
+            <div class="container wedo__item-container">
+              <h3 class="wedo__item-title wedo__item-title-none">
+                Web development
+              </h3>
+              <div class="wedo__item-img-wrapper">
+                <img
+                  class="wedo__item-img"
+                  src="img/wedo-img.png"
+                  alt="wedo img"
+                  width="660"
+                />
+              </div>
+              <div class="wedo__item-content">
+                <h3 class="wedo__item-title">Web development</h3>
+                <p class="wedo__item-text">
+                  Accumsan, facilisis neque faucibus lacus, dui, hendrerit.
+                  Dignissim ultrices morbi mattis id tincidunt quam platea eget
+                  integer. Feugiat sit ac est nunc.
+                </p>
+                <ul class="technologies">
+                  <li class="technologies__item">
+                    <h3 class="technologies__title">
+                      <span>01 <br /></span>
+                      Frontend
+                    </h3>
                   </li>
-                  <li class="wedo__dev-sphere-item">
-                    <p class="wedo__dev-sphere-text">Mobile design</p>
+                  <li class="technologies__item">
+                    <h3 class="technologies__title">
+                      <span>02 <br /></span>
+                      Backend
+                    </h3>
                   </li>
-                  <li class="wedo__dev-sphere-item">
-                    <p class="wedo__dev-sphere-text">Logo</p>
+                  <li class="technologies__item">
+                    <h3 class="technologies__title">
+                      <span>03 <br /></span>
+                      QA Testing
+                    </h3>
                   </li>
-                </ol>
-                <div class="wedo__techs-wrapper">
-                  <h4 class="wedo__teachs-heading">Technologies</h4>
-                  <ul class="wedo__techs">
-                    <li class="wedo__techs-item">
-                      <img class="wedo__techs-img" src="img/figma.svg" alt="Figma" width="60" height="45">
-                      <p class="wedo__techs-txt">Figma</p>
-                    </li>
-                    <li class="wedo__techs-item">
-                      <img class="wedo__techs-img" src="img/ps.svg" alt="Photoshop" width="45" height="45">
-                      <p class="wedo__techs-txt">Photoshop</p>
-                    </li>
-                    <li class="wedo__techs-item">
-                      <img class="wedo__techs-img" src="img/ai.svg" alt="Illustrator" width="45" height="45">
-                      <p class="wedo__techs-txt">Illustrator</p>
-                    </li>
-                  </ul>
-                </div>
+                </ul>
+                <h4 class="tools-title">Technologies</h4>
+                <ul class="tools">
+                  <li class="tools__item">
+                    <img
+                      class="tools__img"
+                      src="img/node-js.svg"
+                      alt="Tool"
+                      width="50"
+                      height="50"
+                    />
+                    <h5 class="tools__item-title">NodeJs</h5>
+                  </li>
+                  <li class="tools__item">
+                    <img
+                      class="tools__img"
+                      src="img/git.svg"
+                      alt="Tool"
+                      width="50"
+                      height="50"
+                    />
+                    <h5 class="tools__item-title">Git</h5>
+                  </li>
+                  <li class="tools__item">
+                    <img
+                      class="tools__img"
+                      src="img/sass.svg"
+                      alt="Tool"
+                      width="50"
+                      height="50"
+                    />
+                    <h5 class="tools__item-title">Sass</h5>
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-        </li>
-        <li class="wedo__item">
-          <div class="wedo__item-inner container">
-            <div class="wedo__item-content">
-              <img class="wedo__item-img" src="img/wedo-img-3.png" srcset="img/wedo-img-3.png 2x" alt="" width="540" height="480">
-              <div class="wedo__item-content-info">
-                <h3 class="wedo__item-title">Telegram bots</h3>
-                <p class="wedo__item-desc">Accumsan, facilisis neque faucibus lacus, dui, hendrerit. Dignissim ultrices
-                  morbi mattis id tincidunt quam platea eget integer. Feugiat sit ac est nunc.</p>
-                <ol class="wedo__dev-sphere">
-                  <li class="wedo__dev-sphere-item">
-                    <p class="wedo__dev-sphere-text">Frontend</p>
+          </li>
+          <li class="wedo__item">
+            <div class="container wedo__item-container">
+              <h3 class="wedo__item-title wedo__item-title-none">
+                Web development
+              </h3>
+              <div class="wedo__item-img-wrapper">
+                <img
+                  class="wedo__item-img"
+                  src="img/wedo-img.png"
+                  alt="wedo img"
+                  width="660"
+                />
+              </div>
+              <div class="wedo__item-content">
+                <h3 class="wedo__item-title">Web development</h3>
+                <p class="wedo__item-text">
+                  Accumsan, facilisis neque faucibus lacus, dui, hendrerit.
+                  Dignissim ultrices morbi mattis id tincidunt quam platea eget
+                  integer. Feugiat sit ac est nunc.
+                </p>
+                <ul class="technologies">
+                  <li class="technologies__item">
+                    <h3 class="technologies__title">
+                      <span>01 <br /></span>
+                      Frontend
+                    </h3>
                   </li>
-                  <li class="wedo__dev-sphere-item">
-                    <p class="wedo__dev-sphere-text">Backend</p>
+                  <li class="technologies__item">
+                    <h3 class="technologies__title">
+                      <span>02 <br /></span>
+                      Backend
+                    </h3>
                   </li>
-                  <li class="wedo__dev-sphere-item">
-                    <p class="wedo__dev-sphere-text">QA Testing</p>
+                  <li class="technologies__item">
+                    <h3 class="technologies__title">
+                      <span>03 <br /></span>
+                      QA Testing
+                    </h3>
                   </li>
-                </ol>
-                <div class="wedo__techs-wrapper">
-                  <h4 class="wedo__teachs-heading">Technologies</h4>
-                  <ul class="wedo__techs">
-                    <li class="wedo__techs-item">
-                      <img class="wedo__techs-img" src="img/git.svg" alt="Git" width="45" height="45">
-                      <p class="wedo__techs-txt">Git</p>
-                    </li>
-                    <li class="wedo__techs-item">
-                      <img class="wedo__techs-img" src="img/sass.svg" alt="Sass" width="60" height="44">
-                      <p class="wedo__techs-txt">Sass</p>
-                    </li>
-                    <li class="wedo__techs-item">
-                      <img class="wedo__techs-img" src="img/node-js.svg" alt="NondeJS" width="40" height="45">
-                      <p class="wedo__techs-txt">NondeJS</p>
-                    </li>
-                  </ul>
-                </div>
+                </ul>
+                <h4 class="tools-title">Technologies</h4>
+                <ul class="tools">
+                  <li class="tools__item">
+                    <img
+                      class="tools__img"
+                      src="img/node-js.svg"
+                      alt="Tool"
+                      width="50"
+                      height="50"
+                    />
+                    <h5 class="tools__item-title">NodeJs</h5>
+                  </li>
+                  <li class="tools__item">
+                    <img
+                      class="tools__img"
+                      src="img/git.svg"
+                      alt="Tool"
+                      width="50"
+                      height="50"
+                    />
+                    <h5 class="tools__item-title">Git</h5>
+                  </li>
+                  <li class="tools__item">
+                    <img
+                      class="tools__img"
+                      src="img/sass.svg"
+                      alt="Tool"
+                      width="50"
+                      height="50"
+                    />
+                    <h5 class="tools__item-title">Sass</h5>
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-        </li>
-        <li class="wedo__item">
-          <div class="wedo__item-inner container">
-            <div class="wedo__item-content">
-              <img class="wedo__item-img" src="img/wedo-img-4.png" srcset="img/wedo-img-4.png 2x" alt="" width="661" height="299">
-              <div class="wedo__item-content-info">
-                <h3 class="wedo__item-title">ERP systems</h3>
-                <p class="wedo__item-desc">Accumsan, facilisis neque faucibus lacus, dui, hendrerit. Dignissim ultrices
-                  morbi mattis id tincidunt quam platea eget integer. Feugiat sit ac est nunc.</p>
-                <ol class="wedo__dev-sphere">
-                  <li class="wedo__dev-sphere-item">
-                    <p class="wedo__dev-sphere-text">Frontend</p>
+          </li>
+          <li class="wedo__item">
+            <div class="container wedo__item-container">
+              <h3 class="wedo__item-title wedo__item-title-none">
+                Web development
+              </h3>
+              <div class="wedo__item-img-wrapper">
+                <img
+                  class="wedo__item-img"
+                  src="img/wedo-img.png"
+                  alt="wedo img"
+                  width="660"
+                />
+              </div>
+              <div class="wedo__item-content">
+                <h3 class="wedo__item-title">Web development</h3>
+                <p class="wedo__item-text">
+                  Accumsan, facilisis neque faucibus lacus, dui, hendrerit.
+                  Dignissim ultrices morbi mattis id tincidunt quam platea eget
+                  integer. Feugiat sit ac est nunc.
+                </p>
+                <ul class="technologies">
+                  <li class="technologies__item">
+                    <h3 class="technologies__title">
+                      <span>01 <br /></span>
+                      Frontend
+                    </h3>
                   </li>
-                  <li class="wedo__dev-sphere-item">
-                    <p class="wedo__dev-sphere-text">Backend</p>
+                  <li class="technologies__item">
+                    <h3 class="technologies__title">
+                      <span>02 <br /></span>
+                      Backend
+                    </h3>
                   </li>
-                  <li class="wedo__dev-sphere-item">
-                    <p class="wedo__dev-sphere-text">QA Testing</p>
+                  <li class="technologies__item">
+                    <h3 class="technologies__title">
+                      <span>03 <br /></span>
+                      QA Testing
+                    </h3>
                   </li>
-                </ol>
-                <div class="wedo__techs-wrapper">
-                  <h4 class="wedo__teachs-heading">Technologies</h4>
-                  <ul class="wedo__techs">
-                    <li class="wedo__techs-item">
-                      <img class="wedo__techs-img" src="img/git.svg" alt="Git" width="45" height="45">
-                      <p class="wedo__techs-txt">Git</p>
-                    </li>
-                    <li class="wedo__techs-item">
-                      <img class="wedo__techs-img" src="img/sass.svg" alt="Sass" width="60" height="44">
-                      <p class="wedo__techs-txt">Sass</p>
-                    </li>
-                    <li class="wedo__techs-item">
-                      <img class="wedo__techs-img" src="img/node-js.svg" alt="NondeJS" width="40" height="45">
-                      <p class="wedo__techs-txt">NondeJS</p>
-                    </li>
-                  </ul>
-                </div>
+                </ul>
+                <h4 class="tools-title">Technologies</h4>
+                <ul class="tools">
+                  <li class="tools__item">
+                    <img
+                      class="tools__img"
+                      src="img/node-js.svg"
+                      alt="Tool"
+                      width="50"
+                      height="50"
+                    />
+                    <h5 class="tools__item-title">NodeJs</h5>
+                  </li>
+                  <li class="tools__item">
+                    <img
+                      class="tools__img"
+                      src="img/git.svg"
+                      alt="Tool"
+                      width="50"
+                      height="50"
+                    />
+                    <h5 class="tools__item-title">Git</h5>
+                  </li>
+                  <li class="tools__item">
+                    <img
+                      class="tools__img"
+                      src="img/sass.svg"
+                      alt="Tool"
+                      width="50"
+                      height="50"
+                    />
+                    <h5 class="tools__item-title">Sass</h5>
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-        </li>
-      </ul>
-    </section>
-  </main>
+          </li>
+        </ul>
+      </section>
+    </main>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">Footer</div>
-  </footer>
+    <!-- Footer -->
+    <footer>
+      <div class="container">Footer</div>
+    </footer>
 
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>
