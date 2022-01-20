@@ -631,7 +631,7 @@ ul {
   text-align: left;
 }
 
-.number {
+.numbers__count {
   margin: 0;
   font-weight: bold;
   font-size: 70px;
@@ -639,7 +639,7 @@ ul {
   color: #00094a;
 }
 
-.number__title {
+.numbers__title {
   margin: 0;
   font-style: normal;
   font-weight: 500;
@@ -649,11 +649,11 @@ ul {
 }
 
 @media only screen and (max-width: 992px) {
-  .number {
+  .numbers__count {
     font-size: 56px;
     line-height: 65px;
   }
-  .number__title {
+  .numbers__title {
     font-size: 16px;
     line-height: 20px;
   }
@@ -671,11 +671,11 @@ ul {
   .numbers__list-item {
     text-align: left;
   }
-  .number {
+  .numbers__count {
     font-size: 70px;
     line-height: 85px;
   }
-  .number__title {
+  .numbers__title {
     font-size: 20px;
     line-height: 24px;
   }
@@ -685,11 +685,11 @@ ul {
   .numbers__list {
     grid-column-gap: 30px;
   }
-  .number {
+  .numbers__count {
     font-size: 30px;
     line-height: 37px;
   }
-  .number__title {
+  .numbers__title {
     font-size: 12px;
     line-height: 15px;
   }
