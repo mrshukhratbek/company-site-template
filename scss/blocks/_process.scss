@@ -1,5 +1,5 @@
 .proceses {
-  margin-bottom: 337px;
+  margin-bottom: 330px;
 
   &__title {
     margin: 0;
@@ -112,6 +112,18 @@
       font-size: 24px;
       line-height: 29px;
       text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .proceses {
+    margin-bottom: 100px;
+  }
+
+  .process {
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 }
