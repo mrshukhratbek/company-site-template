@@ -44,7 +44,7 @@
             </ul>
           </li>
           <li>
-            <a class="header__contact-btn" href="#">contact</a>
+            <a class="header__contact-btn" href="#contact">contact</a>
           </li>
         </ul>
         <button class="header__menu">Menu</button>
@@ -1071,6 +1071,7 @@
         </div>
       </section>
 
+      <!-- Partners -->
       <section class="partners">
         <div class="container">
           <h2 class="partners__title">
@@ -1119,6 +1120,41 @@
               <img class="partner__img" src="img/microsoft.png" alt="Partner" />
             </li>
           </ul>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <div class="container contact__container">
+          <div class="contact__left">
+            <p class="contact__text">have a new or existing project?</p>
+            <h2 class="contact__title">
+              CONTACT US TO <span>IMPLEMENT</span> YOUR IDEAS!
+            </h2>
+          </div>
+          <form class="contact__form">
+            <div class="contact__input-wrapper">
+              <input
+                class="text-input contact__input"
+                type="text"
+                placeholder="Your name"
+                required
+              />
+              <input
+                class="text-input contact__input"
+                type="text"
+                placeholder="+998 _ _   _ _ _   _ _   _ _"
+                required
+              />
+            </div>
+            <textarea
+              class="text-input contact__textarea"
+              type="text"
+              placeholder="Tell more about the project (optional)"
+            ></textarea>
+
+            <button class="contact__btn">send</button>
+          </form>
         </div>
       </section>
     </main>

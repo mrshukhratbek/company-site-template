@@ -46,3 +46,20 @@ ol {
   padding: 0;
   list-style-type: none;
 }
+
+.text-input {
+  width: 300px;
+  padding: 16px 20px;
+  border: 1px solid;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  &:focus {
+    outline: none;
+    border: 1px solid rgba(0, 9, 74, 1);
+  }
+}

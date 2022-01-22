@@ -1,0 +1,183 @@
+.contact {
+  margin-bottom: 240px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__title {
+    max-width: 529px;
+    margin: 0;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 65px;
+    text-transform: uppercase;
+
+    span {
+      color: $secondary-color;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input-wrapper {
+    margin-bottom: 48px;
+    display: flex;
+  }
+
+  &__input {
+    margin-left: 30px;
+  }
+
+  &__textarea {
+    margin-left: 30px;
+    max-width: 630px;
+    min-height: 100px;
+    max-height: 210px;
+    width: 100%;
+    resize: vertical;
+  }
+
+  &__btn {
+    margin-top: 24px;
+    width: 180px;
+    padding: 14px 20px;
+    border-radius: 8px;
+    background-color: $secondary-color;
+    border: none;
+    margin-left: auto;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .contact {
+    &__title {
+      max-width: 470px;
+      font-size: 50px;
+      line-height: 55px;
+    }
+
+    &__input-wrapper {
+      margin-bottom: 30px;
+    }
+
+    &__input {
+      width: 250px;
+      margin-left: 25px;
+    }
+
+    &__textarea {
+      margin-left: 25px;
+      max-width: 520px;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .contact {
+    &__title {
+      max-width: 440px;
+      font-size: 46px;
+      line-height: 52px;
+    }
+
+    &__input-wrapper {
+      margin-bottom: 10px;
+      flex-direction: column;
+    }
+
+    &__input {
+      width: 320px;
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+
+    &__textarea {
+      margin-left: 0;
+      max-width: 320px;
+      max-height: 170px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    &__container {
+      flex-direction: column;
+    }
+
+    &__title {
+      max-width: 100%;
+      margin-bottom: 25px;
+      font-size: 40px;
+      line-height: 48px;
+    }
+
+    &__form {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &__btn {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .contact {
+    &__text {
+      font-size: 9px;
+      line-height: 11px;
+      margin-bottom: 0;
+    }
+    &__title {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .contact {
+    &__input-wrapper {
+      margin-bottom: 15px;
+    }
+
+    &__input {
+      width: 287px;
+      margin-bottom: 10px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    &__textarea {
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    &__btn {
+      margin-top: 15px;
+    }
+  }
+}

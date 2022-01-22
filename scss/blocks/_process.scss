@@ -89,6 +89,8 @@
 
 @media only screen and (max-width: 768px) {
   .proceses {
+    margin-bottom: 100px;
+
     &__list-container {
       flex-direction: column;
       align-items: center;
