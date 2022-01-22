@@ -1677,7 +1677,7 @@ ol {
 }
 
 .partners {
-  margin-bottom: 280px;
+  margin-bottom: 0;
 }
 
 .partners__title {
@@ -1750,9 +1750,6 @@ ol {
 }
 
 @media only screen and (max-width: 768px) {
-  .partners {
-    margin-bottom: 100px;
-  }
   .partner {
     width: 260px;
     height: 110px;
@@ -1785,9 +1782,6 @@ ol {
 }
 
 @media only screen and (max-width: 375px) {
-  .partners {
-    margin-bottom: 60px;
-  }
   .partners__title {
     margin-bottom: 20px;
     font-size: 25px;
@@ -1809,6 +1803,7 @@ ol {
 }
 
 .contact {
+  padding-top: 280px;
   margin-bottom: 240px;
 }
 
@@ -1934,6 +1929,10 @@ ol {
 }
 
 @media only screen and (max-width: 768px) {
+  .contact {
+    padding-top: 100px;
+    margin-bottom: 110px;
+  }
   .contact__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1969,6 +1968,9 @@ ol {
 }
 
 @media only screen and (max-width: 375px) {
+  .contact {
+    padding-top: 60px;
+  }
   .contact__input-wrapper {
     margin-bottom: 15px;
   }
@@ -1984,6 +1986,181 @@ ol {
   }
   .contact__btn {
     margin-top: 15px;
+  }
+}
+
+.footer {
+  color: #fff;
+  padding-top: 76px;
+  padding-bottom: 40px;
+  background-color: #00094a;
+}
+
+.footer__logo {
+  margin-bottom: 10px;
+}
+
+.footer__privacy {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.footer__list {
+  max-width: 1130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__list-item {
+  margin-bottom: 30px;
+  margin-right: 40px;
+}
+
+.footer__list-item:last-child {
+  margin-right: 0;
+}
+
+.footer__list-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.footer__list-link:hover {
+  background-color: #00094a;
+  border: 1px solid #fff;
+}
+
+.footer__list-link:hover path {
+  fill: #fff;
+}
+
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__content-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.44;
+  margin-bottom: 10px;
+}
+
+.footer__content-address {
+  max-width: 315px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.footer__content-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 992px) {
+  .footer__list-link {
+    width: 60px;
+    height: 60px;
+  }
+  .footer__logo-wrapper {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__address {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .footer__list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+  .footer__list {
+    margin-bottom: 0;
+  }
+  .footer__list-item {
+    margin-right: 100px;
+    margin-bottom: 40px;
+  }
+  .footer__list-item:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .footer__list-item {
+    margin-right: 70px;
+  }
+  .footer__content-title {
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .footer__content-address {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .footer__content-link {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .footer__list-link {
+    width: 50px;
+    height: 50px;
+  }
+  .footer__list-item {
+    margin-right: 50px;
   }
 }
 /*# sourceMappingURL=main.css.map */

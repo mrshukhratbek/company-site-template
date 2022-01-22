@@ -1,4 +1,5 @@
 .contact {
+  padding-top: 280px;
   margin-bottom: 240px;
 
   &__container {
@@ -121,6 +122,9 @@
 
 @media only screen and (max-width: 768px) {
   .contact {
+    padding-top: 100px;
+    margin-bottom: 110px;
+
     &__container {
       flex-direction: column;
     }
@@ -160,6 +164,8 @@
 
 @media only screen and (max-width: 375px) {
   .contact {
+    padding-top: 60px;
+
     &__input-wrapper {
       margin-bottom: 15px;
     }
