@@ -47,7 +47,72 @@
             <a class="header__contact-btn" href="#contact">contact</a>
           </li>
         </ul>
-        <button class="header__menu">Menu</button>
+        <button class="header__menu js-menu-open">Menu</button>
+      </div>
+      <div class="header__toggle js-menu">
+        <div class="container header__toggle-container">
+          <div class="header__toggle-top">
+            <a class="header__logo" href="index.html">
+              <img
+                class="header__logo-img"
+                src="./img/logo.png"
+                alt="Site logo"
+                width="186"
+                height="30"
+              />
+            </a>
+
+            <button class="header__menu header__toggle-btn js-menu-close">
+              ЗАКРЫТЬ
+            </button>
+          </div>
+
+          <div class="header__toggle-middile">
+            <ul class="header__toggle-languages">
+              <li>
+                <button class="header__toggle_language">En</button>
+              </li>
+              <li>
+                <button class="header__toggle_language">Ru</button>
+              </li>
+            </ul>
+            <a
+              class="header__contact-btn header__toggle-contact-btn"
+              href="#contact"
+              >contact</a
+            >
+          </div>
+        </div>
+        <div class="header__toggle-footer">
+          <div class="container">
+            <div>
+              <h3 class="header__toggle-footer-title">Номер телефона</h3>
+              <a
+                class="header__phone header__toggle-footer-phone"
+                href="tel:+998901234567"
+              >
+                +998 90 123 45 67
+              </a>
+            </div>
+            <div>
+              <h3 class="header__toggle-footer-title">Мы в соц.сетях</h3>
+              <ul class="header__toggle-contacts">
+                <li>
+                  <a class="header__toggle-contact" href="#">Facebook</a>
+                </li>
+                <li>
+                  <a class="header__toggle-contact" href="#">Instagram</a>
+                </li>
+                <li>
+                  <a class="header__toggle-contact" href="#">Linkedin</a>
+                </li>
+                <li>
+                  <a class="header__toggle-contact" href="#">Behance</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -1343,6 +1408,7 @@
       </div>
     </footer>
 
+    <script src="js/utils.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

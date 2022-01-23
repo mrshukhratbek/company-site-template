@@ -155,7 +155,112 @@
       background-image: url('../img/menu.png');
       background-size: contain;
       background-position: center center;
+      background-repeat: no-repeat;
     }
+  }
+
+  &__toggle {
+    display: none;
+    flex-direction: column;
+    padding-top: 20px;
+    position: fixed;
+    z-index: 101;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+
+  &__toggle-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__toggle-top {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__toggle-btn {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    padding-right: 20px;
+
+    &::after {
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      right: 0;
+      top: 50%;
+      transform: translateY(-60%);
+      background-image: url('../img/close.png');
+    }
+  }
+
+  &__toggle-middile {
+    height: 100%;
+  }
+
+  &__toggle-languages {
+    display: flex;
+    margin-bottom: 85px;
+  }
+
+  &__toggle_language {
+    margin-right: 20px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: $secondary-color;
+    cursor: pointer;
+  }
+
+  &__toggle-contact-btn {
+    margin-left: 0;
+  }
+
+  &__toggle-footer {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    background-color: $main-color;
+    color: #fff;
+  }
+
+  &__toggle-footer-title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  &__toggle-footer-phone {
+    color: #fff;
+    margin-left: 0;
+    margin-bottom: 30px;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &__toggle-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__toggle-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
   }
 }
 
@@ -174,6 +279,10 @@
     &__right {
       display: none;
     }
+
+    &__toggle-open {
+      display: flex;
+    }
   }
 }
 
@@ -181,6 +290,20 @@
   .header {
     &__logo-img {
       width: 140px;
+    }
+
+    &__toggle-contacts {
+      max-width: 300px;
+
+      li {
+        &:last-child {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    &__toggle-contact {
+      margin-right: 40px;
     }
   }
 }
