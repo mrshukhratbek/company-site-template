@@ -983,6 +983,7 @@ ol {
 }
 
 .portfolio__list {
+  margin-bottom: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -993,6 +994,7 @@ ol {
 }
 
 .portfolio__info-title {
+  margin: 0;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;

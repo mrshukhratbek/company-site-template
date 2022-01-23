@@ -81,6 +81,7 @@
   }
 
   &__list {
+    margin-bottom: 80px;
     display: flex;
   }
 
@@ -89,6 +90,7 @@
   }
 
   &__info-title {
+    margin: 0;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
