@@ -113,6 +113,7 @@
     text-transform: uppercase;
     background: none;
     cursor: pointer;
+    color: $main-color;
 
     &:hover {
       background-color: rgba(0, 9, 74, 0.1);
@@ -210,6 +211,9 @@
   }
 
   &__toggle_language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 20px;
     width: 33px;
     height: 33px;
@@ -218,8 +222,17 @@
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
-    background-color: $secondary-color;
     cursor: pointer;
+    background: none;
+    color: $main-color;
+
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+
+  &__toggle_language-active {
+    background-color: $secondary-color;
   }
 
   &__toggle-contact-btn {
@@ -238,6 +251,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
+    opacity: 0.44;
   }
 
   &__toggle-footer-phone {

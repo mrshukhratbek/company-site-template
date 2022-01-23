@@ -453,6 +453,7 @@ ol {
   text-transform: uppercase;
   background: none;
   cursor: pointer;
+  color: #00094a;
 }
 
 .header__language-btn:hover {
@@ -564,6 +565,15 @@ ol {
 }
 
 .header__toggle_language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-right: 20px;
   width: 33px;
   height: 33px;
@@ -572,8 +582,17 @@ ol {
   font-weight: 600;
   font-size: 12px;
   line-height: 15px;
-  background-color: #06a39c;
   cursor: pointer;
+  background: none;
+  color: #00094a;
+}
+
+.header__toggle_language:hover {
+  background-color: #06a39c;
+}
+
+.header__toggle_language-active {
+  background-color: #06a39c;
 }
 
 .header__toggle-contact-btn {
@@ -592,6 +611,7 @@ ol {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  opacity: 0.44;
 }
 
 .header__toggle-footer-phone {
@@ -714,6 +734,8 @@ ol {
 }
 
 .hero__link {
+  position: relative;
+  z-index: 1;
   max-width: 152px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -731,13 +753,17 @@ ol {
   line-height: 15px;
   text-transform: uppercase;
   color: #ffffff;
+  height: 42px;
 }
 
 .hero__link-icon {
+  position: absolute;
+  z-index: 1;
   margin-left: 34px;
   display: inline-block;
   width: 27px;
   height: 27px;
+  right: 15px;
   background-image: url("../img/play.png");
   background-size: contain;
   background-position: center center;
@@ -752,6 +778,9 @@ ol {
     padding-top: 326px;
     padding-left: 20px;
     padding-bottom: 35px;
+  }
+  .hero__container::before {
+    background: linear-gradient(43deg, #00094a 10.17%, rgba(0, 9, 74, 0.0590625) 63.22%);
   }
   .hero__title {
     font-size: 24px;
