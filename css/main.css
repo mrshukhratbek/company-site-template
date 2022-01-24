@@ -1799,6 +1799,33 @@ ol {
   }
 }
 
+@media only screen and (max-width: 350px) {
+  .team__item {
+    margin-right: 10px !important;
+    margin-bottom: 100px;
+    max-width: 220px;
+    padding: 15px;
+    padding-top: 95px;
+  }
+  .team__item:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+  .team__img {
+    width: 110px;
+    height: 110px;
+  }
+  .team__name {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .team__job {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
 .proceses {
   margin-bottom: 330px;
 }

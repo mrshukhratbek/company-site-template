@@ -213,3 +213,36 @@
     }
   }
 }
+
+@media only screen and (max-width: 350px) {
+  .team {
+    &__item {
+      margin-right: 10px !important;
+      margin-bottom: 100px;
+      max-width: 220px;
+      padding: 15px;
+      padding-top: 95px;
+
+      &:nth-child(2n) {
+        margin-right: 0 !important;
+      }
+    }
+
+    &__img {
+      width: 110px;
+      height: 110px;
+    }
+
+    &__name {
+      margin-bottom: 5px;
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    &__job {
+      margin-bottom: 20px;
+      font-size: 12px;
+      line-height: 12px;
+    }
+  }
+}
