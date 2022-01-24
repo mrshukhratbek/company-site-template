@@ -4,7 +4,7 @@ Site title
 
 # Author
 
-Name: Shuhratbek
+Name: Shuhratbek Qobulov
 
 - [My LinkedIn account](https://www.linkedin.com/in/shuhratbek-qobulov-1440401b6/)
 - [My youtube channel](https://www.youtube.com/channel/UCWCGru99NKPnqxmJkqKyg9w)
