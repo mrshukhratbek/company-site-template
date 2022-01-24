@@ -1,11 +1,11 @@
 # Info
 
-Site title
+Site name: Company site template
 
-# Author
+## Author
 
 Name: Shuhratbek Qobulov
 
-- [My LinkedIn account](https://www.linkedin.com/in/shuhratbek-qobulov-1440401b6/)
-- [My youtube channel](https://www.youtube.com/channel/UCWCGru99NKPnqxmJkqKyg9w)
 - [My blog in the telegram](https://t.me/shuhratbeks_blog)
+- [My LinkedIn account](https://www.linkedin.com/in/shuhratbekqobulov)
+- [My GitHub account](https://github.com/mrshuhrat)
